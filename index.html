@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="father">
+        <div class="left">
+            <input type="button">
+            <input type="button">
+            <input type="button">
+        </div>     
+        
+        <div class="screen">
+            <header>
+                <p id="header">¡BIENVENIDO!</p>
+            </header>
+        
+            <main id="main">
+                <p>Favor de ingresar los últimos 4 dígitos de tu tarjeta:</p>
+                <div class="card">
+                    <form action="">
+                        <input type="text" value="5174">
+                        <input type="text" value="3900">
+                        <input type="text" value="0004">
+                        <input type="text" placeholder="0000" id="user">
+                    </form>
+                </div>
+        
+                <div class="nip">
+                <p>NIP: </p>
+                <form action="">
+                    <input type="password" name="" id="d_1">
+                    <input type="password" name="" id="d_2">
+                    <input type="password" name="" id="d_3">
+                    <input type="password" name="" id="d_4">
+                </form>
+                </div>
+        
+                <div class="enter">
+                    <input type="submit" onclick="validate_credentials()">
+                </div>
+            </main>
+        </div>
+        
+        <div class="right">
+            <input type="button">
+            <input type="button">
+            <input type="button">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
